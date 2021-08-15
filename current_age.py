@@ -12,7 +12,7 @@ class emrooz:
         return age
 aknoon=date.today()
 aknoon=aknoon.year
-birth=input()
+birth=input("pls enter your birth date like(2000/10/11):")
 birth=birth.replace('/',' ')
 birth=birth.split()
 birth=list(map(int,birth))
